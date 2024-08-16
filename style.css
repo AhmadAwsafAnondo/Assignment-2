@@ -72,6 +72,7 @@ body{
   color: white;
   border-radius: 50px;
   border: none;
+  font-family: "Inter", sans-serif;
 }
 .download{
   padding: 16px 40px;
@@ -79,6 +80,7 @@ body{
   background-color: transparent;
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.534);
+  font-family: "Inter", sans-serif;
 }
 .banner-pics img{
   position: relative;
@@ -220,6 +222,10 @@ body{
   margin-top: 3rem;
   width: 27rem;
 }
+.section4-texts p{
+  opacity: 0.5;
+  font-size: smaller;
+}
 .section4 img{
   width: 22rem;
   position: relative;
@@ -227,4 +233,161 @@ body{
   margin-top: -12.5rem;
   margin-bottom: 2rem;
   border-radius: 18px;
+}
+.section5{
+  margin-top: 8rem;
+  margin-left: 8rem;
+  color: white;
+  font-family: "Inter", sans-serif;
+  z-index: 2;
+}
+.section5 img{
+  width: 100%;
+  margin-top: -27rem;
+  z-index: -3;
+  position: relative;
+}
+.section5 h1{
+  padding-left: 5rem;
+  margin-top: 20rem;
+  width: 27rem;
+  font-size: 48px;
+  z-index: 3;
+}
+.section5 p{
+  padding-left: 5rem;
+  margin-top: 2rem;
+  width: 27rem;
+  z-index: 3;
+}
+#section5-btn{
+  display: flex;
+  position: relative;
+  margin-top: -12rem;
+  margin-left: 5rem;
+  padding: 16px 40px;
+  background-color: rgba(230, 83, 60, 1);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  z-index: 3;
+  font-family: "Inter", sans-serif;
+}
+.section6{
+  color: white;
+  position: relative;
+  margin-top: 20rem;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+#section6-main-heading{
+  font-size: 48px;
+}
+#section6-main-para{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: -1rem;
+  opacity: 0.5;
+}
+.bmi-table {
+  width: 30%;
+  border-collapse: collapse;
+  color: #eaeaea;
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: left;
+  border: 1px solid #444;
+}
+.bmi-table th, .bmi-table td {
+  padding: 12px 15px;
+  border: 1px solid #444;
+}
+.bmi-table th {
+  font-size: 1.2rem;
+}
+.bmi-table td {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+/* .section6-container{
+  display: flex;
+} */
+
+#BMI-chart-heading{
+  font-size: 24px;
+  margin-top: 5%;
+  margin-left: -50%;
+}
+#BMI-calc-heading{
+  font-size: 24px;
+  margin-top: -81%;
+}
+#BMI-calc-para{
+  opacity: 0.5;
+}
+.heading-texts{
+  width: 30%;
+  text-align: left;
+  margin-left: 50%;
+}
+.inputs{
+  margin-left: 26.5%;
+  /* width: 90%; */
+}
+#height-input{
+  width: 15%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+#weight-input{
+  width: 15%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.first-row-input{
+  display: block;
+}
+.second-row-input{
+  display: block;
+}
+#age-input{
+  width: 15%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 0%;
+  margin-bottom: 10px;
+}
+#sex{
+  width: 17.5%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 0.363);
+  border: none;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+#sex option{
+  color: black;
+}
+#activity{
+  display: block;
+  width: 36%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 0.363);
+  border: none;
+  border-radius: 8px;
+  margin-left: 32.10%;
 }
