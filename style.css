@@ -66,14 +66,14 @@ body{
   margin-left: 12rem;
   margin-top: 1.5rem;
 }
-#join{
+.join{
   padding: 16px 40px;
   background-color: rgba(230, 83, 60, 1);
   color: white;
   border-radius: 50px;
   border: none;
 }
-#download{
+.download{
   padding: 16px 40px;
   border-radius: 50px;
   background-color: transparent;
@@ -203,4 +203,28 @@ body{
 }
 .card-4 img{
   border-radius: 100px;
+}
+.section4{
+  margin-top: 8rem;
+  display: flex;
+  color: white;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  border-radius: 18px;
+  background-color: rgba(34, 34, 34, 1);
+  margin-left: 8rem;
+  width: 81.5%;
+}
+.section4-texts{
+  padding-left: 5rem;
+  margin-top: 3rem;
+  width: 27rem;
+}
+.section4 img{
+  width: 22rem;
+  position: relative;
+  margin-left: 38rem;
+  margin-top: -12.5rem;
+  margin-bottom: 2rem;
+  border-radius: 18px;
 }
